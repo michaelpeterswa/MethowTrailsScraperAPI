@@ -1,0 +1,13 @@
+{
+    "project": [
+        {
+            "author": "Michael Peters",
+            "projectName": "MethowTrailsScraperAPI",
+            "version": "0.0.1",
+            "description": "this is an api that uses the TSDB InfluxDB to serve a REST endpoint based upon data scraped from the Methow Trails website",
+            "longDescription": "",
+            "githubLink": "https://github.com/michaelpeterswa/MethowTrailsScraperAPI",
+            "date": "12.22.2019"
+        }
+    ]
+}
