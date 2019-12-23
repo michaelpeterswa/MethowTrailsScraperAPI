@@ -1,0 +1,34 @@
+{
+  "name": "mtsapi",
+  "version": "0.0.1",
+  "description": "JSON endpoint serving current grooming data in Methow Trails system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./scripts/start.sh",
+    "build": "./scripts/buildandrun.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelpeterswa/MethowTrailsScraperAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "JSON",
+    "SKIING"
+  ],
+  "author": "Michael Peters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelpeterswa/MethowTrailsScraperAPI/issues"
+  },
+  "homepage": "https://github.com/michaelpeterswa/MethowTrailsScraperAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "influx": "^5.4.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  }
+}
